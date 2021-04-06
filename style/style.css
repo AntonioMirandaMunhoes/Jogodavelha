@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(19, 9, 77);
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 300px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rebeccapurple;
+    border-radius: 15px;
+    
+}
+.stage{
+    text-align: center;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid white;
+    background-color: rgb(247, 198, 158);
+    border-radius: 10px;
+}
+.o{
+    position: relative;
+}
+.o::after{
+    position: absolute;
+    content: "\2615";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.x{
+    position: relative;
+}
+.x::after{
+    position: absolute;
+    content: "\1F37A";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
